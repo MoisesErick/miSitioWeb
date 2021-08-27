@@ -2,8 +2,48 @@
     min-height: 65vh;
 }
 
+.imgPerfil{
+    width: 300px;
+    height: 300px;
+}
+
+.seccion{
+    min-height: 100vh;
+}
+
 @media screen and (max-width:750px){
     p{
+        font-size: .8rem;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .dato{
         font-size: .9rem;
     }
+
+    .imgPerfil{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+    .imgPerfil{
+        width: 250px;
+        height: 250px;
+    }
+
+    .seccion{
+        min-height: 50vh;
+    }
+
 }
