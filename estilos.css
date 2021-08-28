@@ -20,6 +20,9 @@
     color: #E9C46A;
 }
 
+.area{
+    color: #055160;
+}
 
 @media screen and (max-width:750px){
     p{
@@ -34,12 +37,19 @@
         font-size: 1.5rem;
     }
 
-    .dato{
-        font-size: .9rem;
+    h3{
+        font-size: 1.4rem;
     }
 
-    .escuela{
-        font-size: 1.4rem;
+    h4{
+        font-size: 1.3rem;
+    }
+
+    h5{
+        font-size: 1.2rem;
+    }
+    .dato{
+        font-size: .9rem;
     }
 
     .imgPerfil{
