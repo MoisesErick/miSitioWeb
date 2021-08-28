@@ -54,6 +54,7 @@
 
     .itemCurso{
         min-height: auto;
+        height: auto;
     }
 }
 
