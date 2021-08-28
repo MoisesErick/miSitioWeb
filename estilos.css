@@ -7,9 +7,21 @@
     height: 300px;
 }
 
+.imgLogo{
+    width: 250px;
+    height: 250px;
+}
+
 .seccion{
     min-height: 100vh;
 }
+
+
+
+.carrera{
+    color: #E9C46A;
+}
+
 
 @media screen and (max-width:750px){
     p{
@@ -28,9 +40,18 @@
         font-size: .9rem;
     }
 
+    .escuela{
+        font-size: 1.4rem;
+    }
+
     .imgPerfil{
         width: 200px;
         height: 200px;
+    }
+
+    .imgLogo{
+        width: 150px;
+        height: 150px;
     }
 }
 
