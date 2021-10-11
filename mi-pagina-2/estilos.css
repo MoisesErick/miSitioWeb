@@ -1,0 +1,83 @@
+.itemCurso{
+    min-height: 65vh;
+}
+
+.imgPerfil{
+    width: 300px;
+    height: 300px;
+}
+
+.imgLogo{
+    width: 250px;
+    height: 250px;
+}
+
+.seccion{
+    min-height: 100vh;
+}
+
+.carrera{
+    color: #E9C46A;
+}
+
+.area{
+    color: #055160;
+}
+
+@media screen and (max-width:750px){
+    p{
+        font-size: .8rem;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.4rem;
+    }
+
+    h4{
+        font-size: 1.3rem;
+    }
+
+    h5{
+        font-size: 1.2rem;
+    }
+    .dato{
+        font-size: .9rem;
+    }
+
+    .imgPerfil{
+        width: 200px;
+        height: 200px;
+    }
+
+    .imgLogo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .itemCurso{
+        min-height: 50vh;
+        height: auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+    .imgPerfil{
+        width: 250px;
+        height: 250px;
+    }
+
+    .seccion{
+        min-height: 50vh;
+    }
+
+}
